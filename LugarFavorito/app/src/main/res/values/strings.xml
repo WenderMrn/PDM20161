@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lugar Favorito</string>
+    <string name="btn_add_imagem">adicionar imagem</string>
+    <string name="titulo_cadastro">Cadastrar Um Novo Lugar</string>
+</resources>
