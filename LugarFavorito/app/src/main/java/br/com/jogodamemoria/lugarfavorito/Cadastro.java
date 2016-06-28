@@ -38,5 +38,9 @@ public class Cadastro {
     public List<Lugar> getLugares(){
         return this.lugares;
     }
+
+    public Lugar getLugar(int pos){
+       return this.lugares.get(pos);
+    }
 }
 

@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
     private static final int TELA_CADASTRAR = 1, TELA_SOBRE = 2,TELA_SHOW = 3;
     private ListView lvLista;
     private Cadastro cadastro;
-    private ArrayAdapter<Lugar> listAdapter;
-
+    //private ArrayAdapter<Lugar> listAdapter;
+    private LugarAdapter adapter;
     public MainActivity(){
         this.cadastro = new Cadastro();
     }
@@ -27,8 +27,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.loadComponents();
-        this.listAdapter = new ArrayAdapter<Lugar>(this,android.R.layout.simple_list_item_1,this.cadastro.getLugares());
-        this.lvLista.setAdapter(this.listAdapter);
+        //this.listAdapter = new ArrayAdapter<Lugar>(this,android.R.layout.simple_list_item_1,this.cadastro.getLugares());
+        this.adapter = new LugarAdapter(this.cadastro,this);
+        this.lvLista.setAdapter(this.adapter);
         this.lvLista.setOnItemClickListener(new OnClick());
 
     }
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap imagem = (Bitmap) data.getParcelableExtra("LUGAR_IMAGEM");
                 Lugar l = new Lugar(nome,descricao,null,imagem);
                 MainActivity.this.cadastro.cadastrar(l);
-                ((ArrayAdapter)this.listAdapter).notifyDataSetChanged();
+                this.adapter.notifyDataSetChanged();
                 //Log.i("LF","Chegou");
             }
         }
