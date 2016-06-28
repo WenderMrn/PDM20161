@@ -43,6 +43,7 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+<<<<<<< HEAD
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -50,6 +51,13 @@
     <states>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
+=======
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+>>>>>>> c1a073b4720498ac2328094c016069f65db47427
           <splitter-proportions>
             <option name="proportions">
               <list>
