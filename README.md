@@ -5,8 +5,8 @@ Aplicativo para análise de imagem de pessoas. Aplicativo Android desenvolvido p
 
 Vídeo demonstrativo: [https://youtu.be/7kD8xExdV30](https://youtu.be/7kD8xExdV30)
 
-<img src="Analitico/app/src/main/res/example/app1.png" alt="imagem 1" width="250" height="400"/>
-![alt tag](Analitico/app/src/main/res/example/app2.png)
-![alt tag](Analitico/app/src/main/res/example/app3.png)
-![alt tag](Analitico/app/src/main/res/example/app4.png)
+<img src="Analitico/app/src/main/res/example/app1.png" alt="imagem exemplo 1" width="250" height="400"/>
+<img src="Analitico/app/src/main/res/example/app2.png" alt="imagem exemplo 2" width="250" height="400"/>
+<img src="Analitico/app/src/main/res/example/app3.png" alt="imagem exemplo 1" width="250" height="400"/>
+<img src="Analitico/app/src/main/res/example/app4.png" alt="imagem exemplo 2" width="250" height="400"/>
 
